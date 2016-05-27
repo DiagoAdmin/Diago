@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Multiple Suites" >
+   <!-- <test name="Dart" junit="true">
+      <classes>
+         <class name="Dart.Dart_Suite" />
+      </classes>
+   </test> -->
+
+   <test name="Aja" preserve-order="true">
+      <classes>
+         <class name="ajatest.WriteExcel">
+         <methods>
+         <include name="launchSiteAndLogin" />
+         <!-- <include name="openUserSettingPage" />
+         <include name="ChangeUserSettings" /> -->
+          <include name="Logout" />
+         </methods>
+         </class>
+      </classes>
+   </test>
+   <!-- <test name="RCMS" junit="true">
+      <classes>
+         <class name="RcmsLogin.Login" />
+      </classes>
+   </test> -->
+</suite>

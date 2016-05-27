@@ -1,0 +1,44 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://dart-test.acr.org" >
+
+<suite name="Dart Suite">
+ <test name="New Test">
+ <classes>
+       <class name="Dart.Dart_Suite"/>
+    </classes>
+  </test>
+  </suite>  -->
+<!-- 
+
+   <test name="Sample test">
+    <classes>
+      <class name="TestNGTestSample.SampleTest" />
+    </classes> -->
+     -->
+    <!-- Below method is to exclude a test case/method
+  <groups>
+      
+         <define name="all">
+            <include name="checkintest"/>
+            <exclude name="functest"/>
+         </define>
+         
+         <run>
+            <include name="all"/>
+         </run>
+         
+      </groups> -->
+      
+      <!-- prints exception message in html file created under test-output folder
+      <classes>
+         <class name="TestNGTestSample.ExpectedExceptionTest" />
+      </classes>
+       -->
+       <!-- passing parameters to the class
+       <parameter name="myName" value="manisha"/> 
+      
+      <classes>
+         <class name="TestNGTestSample.ParameterizedTest1" />
+      </classes>
+       -->>
+ 	
