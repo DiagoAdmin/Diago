@@ -8,6 +8,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 /*import org.openqa.selenium.firefox.FirefoxDriver;*/
 import org.openqa.selenium.support.ui.Select;
 
+import com.sun.org.apache.xerces.internal.dom.PSVIDOMImplementationImpl;
+import AJALogin.abc;
+
+
 public class CreateCase {
 public WebDriver driver;
 public void login()
@@ -52,6 +56,7 @@ public void images() throws InterruptedException
 		driver.switchTo().defaultContent();
 		
 		driver.findElement(By.id("btnSaveCapAndMod")).click();
+		
 		Thread.sleep(5000);
 		
 	}
@@ -160,6 +165,8 @@ c.images();
 /*c.textitems();
 c.questions();*/
 c.Templateditems();
+abc test=new abc();
+test.add();
 	}
 
 }
